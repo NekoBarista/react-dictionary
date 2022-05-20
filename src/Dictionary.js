@@ -26,7 +26,7 @@ axios.get(apiUrl).then(handleResponse)
     return (
 <div className="Dictionary">
     <form onSubmit={search}>
-<input type={"search"} onChange={handleInput}></input>
+<input type={"search"} onChange={handleInput} placeholder="Enter a word"></input>
     </form>
     <Result results={result}/>
     </div>
