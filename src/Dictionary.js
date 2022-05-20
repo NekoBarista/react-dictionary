@@ -1,17 +1,18 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Result from "./Result"
 
 export default function Dictionary() {
 let [input, setInput] = useState("")
+let [result, setResult] = useState(null)
 
 function handleInput(event){
-    
     setInput(event.target.value)
 }
 
 
 function handleResponse(response){
-    console.log(response.data[0])
+    setResult(response.data[0]);
 }
 
     function search(event) {
@@ -27,6 +28,7 @@ axios.get(apiUrl).then(handleResponse)
     <form onSubmit={search}>
 <input type={"search"} onChange={handleInput}></input>
     </form>
+    <Result results={result}/>
     </div>
     )
 }
