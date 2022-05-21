@@ -3,3 +3,10 @@ background-image: url(./img/download.gif);
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+.App {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  header {padding-bottom: 30px;}
