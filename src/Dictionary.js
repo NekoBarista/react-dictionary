@@ -4,7 +4,7 @@ import Result from "./Result"
 import './dictionary.css';
 
 export default function Dictionary() {
-let [input, setInput] = useState("rainfall")
+let [input, setInput] = useState("nostalgia")
 let [result, setResult] = useState(null)
 let [inputReceived, setInputReceived] = useState(null)
 
