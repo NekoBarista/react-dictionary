@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Result from "./Result"
-import "./Dictionary.css"
+import './Dictionary.css';
 
 export default function Dictionary() {
 let [input, setInput] = useState("")
