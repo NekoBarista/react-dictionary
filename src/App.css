@@ -1,3 +1,5 @@
 body {
-    background-color: plum;
+background-image: url(./img/download.gif);
+background-repeat: no-repeat;
+background-size: cover;
 }

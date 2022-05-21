@@ -1,0 +1,18 @@
+a { text-decoration: none;
+border: 1px solid green;
+padding: 10px 20px;
+border-radius: 20px;
+margin: 20px;
+transition: all 150ms ease-in-and-out;
+color: green;
+font-weight: bold;
+}
+
+a:hover {background-color: white;
+    color: green;
+
+}
+
+.Phonetics {
+    height:60px;
+}
